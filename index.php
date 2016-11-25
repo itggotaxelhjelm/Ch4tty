@@ -10,6 +10,7 @@
 <?php
 session_start();
 
+//Login Form
 if(isset($_POST['login'])) //kollar om login finns i urln
 {
 	$user = $_POST['user'];
